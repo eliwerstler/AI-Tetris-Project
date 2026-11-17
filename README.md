@@ -1,5 +1,14 @@
 # Tetress AI Agent - Monte Carlo Tree Search Implementation
 
+**Course project for the University of Melbourne's COMP30024 (Artificial Intelligence), 2024.** The agent is in [`tetress/agent/program.py`](tetress/agent/program.py).
+
+## Run it
+
+```bash
+cd tetress
+python -m referee agent agent   # agent plays itself; swap either side for another agent module
+```
+
 ## Overview
 
 This project is designed to implement an AI agent for the game **Tetress**, a two-player, perfect-information board game where players take turns placing tetrominoes on an 11x11 toroidal board. The goal is to strategically block your opponent and clear rows or columns of tokens, thereby controlling the board. The game ends when a player can no longer place a valid piece or after 150 turns, whichever comes first.
